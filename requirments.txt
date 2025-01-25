@@ -1,0 +1,9 @@
+transformers
+torch==2.4.1+cu121
+scikit-learn
+pandas
+numpy
+streamlit
+requests
+fastapi
+uvicorn 

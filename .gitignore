@@ -1,0 +1,6 @@
+__pycache__/
+ckpts/
+datasets/
+*.jpg
+*.json
+server/__pycache__

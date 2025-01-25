@@ -1,0 +1,35 @@
+2025-01-05 22:12:29,369;  INFO;  All the classes: ['0', 'O', 'ORG-POL', 'ORG', 'PRODUCT', 'ORG-OTH', 'EVENT', 'PERSON', 'GPE', 'FAC']
+2025-01-05 22:12:29,370;  INFO;  index to tag: {0: '0', 1: 'O', 2: 'ORG-POL', 3: 'ORG', 4: 'PRODUCT', 5: 'ORG-OTH', 6: 'EVENT', 7: 'PERSON', 8: 'GPE', 9: 'FAC'}
+2025-01-05 22:12:29,370;  INFO;  tag to index: {'0': 0, 'O': 1, 'ORG-POL': 2, 'ORG': 3, 'PRODUCT': 4, 'ORG-OTH': 5, 'EVENT': 6, 'PERSON': 7, 'GPE': 8, 'FAC': 9}
+2025-01-05 22:12:29,370;  INFO;  total number of samples: 13185
+2025-01-05 22:12:29,370;  INFO;  total number of train samples: 10548
+2025-01-05 22:12:29,371;  INFO;  total number of eval samples: 2637
+2025-01-05 22:12:29,371;  INFO;  In training mode, so loading the base model
+2025-01-05 22:12:30,014;  INFO;  Model size: 277.460746 M
+2025-01-05 22:13:13,386;  INFO;  Epoch[0]:[100/660] loss: 0.1272, loss_avg: 0.3066
+2025-01-05 22:13:56,659;  INFO;  Epoch[0]:[200/660] loss: 0.0479, loss_avg: 0.1946
+2025-01-05 22:14:40,077;  INFO;  Epoch[0]:[300/660] loss: 0.0590, loss_avg: 0.1476
+2025-01-05 22:15:23,131;  INFO;  Epoch[0]:[400/660] loss: 0.0308, loss_avg: 0.1203
+2025-01-05 22:16:06,634;  INFO;  Epoch[0]:[500/660] loss: 0.0207, loss_avg: 0.1032
+2025-01-05 22:16:50,171;  INFO;  Epoch[0]:[600/660] loss: 0.0308, loss_avg: 0.0907
+2025-01-05 22:18:34,280;  INFO;  loss: 0.0085, loss_avg: 0.0131
+2025-01-05 22:18:34,402;  INFO;  Current eval. acc.: 98%
+2025-01-05 22:18:35,344;  INFO;  Saving best checkpoint..
+2025-01-05 22:19:53,268;  INFO;  loss: 0.0031, loss_avg: 0.0131
+2025-01-05 22:19:55,028;  INFO;  
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      1.00     24028
+       EVENT       0.98      0.96      0.97     16657
+         FAC       0.95      0.97      0.96     17129
+         GPE       0.94      0.98      0.96     20987
+           O       1.00      0.99      0.99    314912
+         ORG       0.96      0.96      0.96     28167
+     ORG-OTH       0.96      0.88      0.92     14247
+     ORG-POL       0.91      0.98      0.94     13888
+      PERSON       0.97      0.99      0.98     46874
+     PRODUCT       0.95      0.96      0.96     18629
+
+    accuracy                           0.98    515518
+   macro avg       0.96      0.97      0.96    515518
+weighted avg       0.98      0.98      0.98    515518
