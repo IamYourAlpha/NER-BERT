@@ -1,5 +1,4 @@
 # author: Intisar Chy.
-# purpos: FA assignment.
 import json
 import logging
 import sys
